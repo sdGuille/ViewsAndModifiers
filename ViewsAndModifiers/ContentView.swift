@@ -8,19 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    let motto1 = Text("Draco dormiens")
+    let motto2 = Text("nunquam titillandus")
+    
+    @ViewBuilder var spells: some View {
+        Text("Lumos")
+        Text("Obliviate")
+    }
     
     var body: some View {
+        
         VStack {
-            Text("Gryffindor")
-                .font(.largeTitle)
-            Text("Hufflepuff")
-            Text("Ravenclaw")
-            Text("Slytherin")
-                .font(.largeTitle.bold())
+            motto1
+                .foregroundColor(.blue)
+            motto2
+                .foregroundColor(.red)
+            spells
+                .foregroundColor(.brown)
         }
-        .font(.title)
-        .blur(radius: 2)
+        
     }
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
