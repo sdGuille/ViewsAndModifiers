@@ -8,27 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var useRedText = false
     
     var body: some View {
-        // We can use this
-//        if useRedText {
-//               Button("Hello World") {
-//                   useRedText.toggle()
-//               }
-//               .foregroundColor(.red)
-//           } else {
-//               Button("Hello World") {
-//                   useRedText.toggle()
-//               }
-//               .foregroundColor(.blue)
-//           }
-        // but it's better use a ternary operator
-        
-        Button("Hello World") {
-            useRedText.toggle()
+        VStack {
+            Text("Gryffindor")
+                .font(.largeTitle)
+            Text("Hufflepuff")
+            Text("Ravenclaw")
+            Text("Slytherin")
+                .font(.largeTitle.bold())
         }
-        .foregroundColor(useRedText ? .red : .blue)
+        .font(.title)
+        .blur(radius: 2)
     }
 }
 
