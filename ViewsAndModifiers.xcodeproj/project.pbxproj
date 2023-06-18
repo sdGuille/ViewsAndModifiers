@@ -11,6 +11,7 @@
 		CF605D682A1E68C800B0F9B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF605D672A1E68C800B0F9B6 /* ContentView.swift */; };
 		CF605D6A2A1E68C800B0F9B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF605D692A1E68C800B0F9B6 /* Assets.xcassets */; };
 		CF605D6D2A1E68C800B0F9B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF605D6C2A1E68C800B0F9B6 /* Preview Assets.xcassets */; };
+		CFC525292A3EB32D00322F25 /* MyTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC525282A3EB32D00322F25 /* MyTabs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CF605D672A1E68C800B0F9B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF605D692A1E68C800B0F9B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF605D6C2A1E68C800B0F9B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFC525282A3EB32D00322F25 /* MyTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		CF605D642A1E68C800B0F9B6 /* ViewsAndModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				CFC525272A3EB30F00322F25 /* Practice */,
 				CF605D652A1E68C800B0F9B6 /* ViewsAndModifiersApp.swift */,
 				CF605D672A1E68C800B0F9B6 /* ContentView.swift */,
 				CF605D692A1E68C800B0F9B6 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				CF605D6C2A1E68C800B0F9B6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFC525272A3EB30F00322F25 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				CFC525282A3EB32D00322F25 /* MyTabs.swift */,
+			);
+			path = Practice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF605D682A1E68C800B0F9B6 /* ContentView.swift in Sources */,
+				CFC525292A3EB32D00322F25 /* MyTabs.swift in Sources */,
 				CF605D662A1E68C800B0F9B6 /* ViewsAndModifiersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
