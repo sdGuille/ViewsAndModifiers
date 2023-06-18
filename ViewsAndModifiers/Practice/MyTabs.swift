@@ -12,12 +12,13 @@ struct MyTabs: View {
         VStack {
             TabView {
                 Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-                    .tabItem { Text("Greeting") }
+
                 Text("I'm the way the true and the life")
-                    .tabItem { Text("Message") }
+           
                 Text("Talking to Jesus")
-                    .tabItem { (Text("Song")) }
+
             }
+
         }
     }
 }
